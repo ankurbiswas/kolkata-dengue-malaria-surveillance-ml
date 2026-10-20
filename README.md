@@ -1,4 +1,4 @@
-# Differentiating notified dengue from malaria in Kolkata from routine surveillance fields
+﻿# Differentiating notified dengue from malaria in Kolkata from routine surveillance fields
 
 Analysis code for the study *"Differentiating notified dengue from malaria in Kolkata from routine surveillance fields: a leakage-audited machine-learning study, 2014–2025"* (Biswas A, Das A, Mandal B, Das A, Chatterjee S; manuscript in preparation).
 
@@ -13,6 +13,7 @@ The study classifies notified cases from the Kolkata Municipal Corporation (KMC)
 | `data_prep/` | Building the modelling file from the 24 annual KMC workbooks: `01_merge_raw_data.py` (map columns to one schema, drop identifiers), `02_clean_data.py` (dates, ages, wards, boroughs, place of treatment), `03_feature_engineering.py`, `04_prepare_model_input.py`, `05_make_model_input_v2.py` (final modelling file, 129,983 complete cases) and `06_make_excluded_input.py` (cases excluded only because place of treatment is missing). |
 | `pipeline/` | The leakage-safe benchmark. `run_revised.py` (7 classifiers × 5 arms × 5 random splits + 1 temporal split; tuning, thresholds, SHAP/permutation importance and field selection on training data only), `analyze_results.py` (tables, paired bootstrap, McNemar, matched-recall check), `leakage_audit.py`, `extra_analysis.py` (field ablations, calibration slope, decision curves, operating points, subgroups, excluded records), `make_figures.py`, `make_workflow_figure.py`, `export_results_json.py`, `fastboot.py` (fast paired bootstrap). |
 | `spatial/` | Ward-level incidence, empirical-Bayes smoothing, global and local Moran's I (LISA) and the ward-level validation table. Needs the licensed GISMAP ward map. |
+| `results/ward_tables/` | Derived ward-level result tables without patient information or case counts: global and local Moran's I (LISA) and the ward-level validation of the XGBoost model. |
 | `examples/` | `make_synthetic_data.py` and `synthetic_model_input.csv`: random data with the same columns as the modelling file. |
 
 ## Requirements

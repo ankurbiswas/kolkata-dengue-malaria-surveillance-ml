@@ -1,0 +1,6 @@
+variable,wards,islands,transform,morans_I,expected_I,z_sim,p_sim,permutations
+"Dengue incidence per 100,000",141,0,none,0.6701,-0.0041,13.5734,0.001,999
+"Dengue incidence per 100,000",141,0,log10,0.5936,-0.0054,11.6031,0.001,999
+"Malaria incidence per 100,000",141,0,none,0.6273,-0.0076,12.6004,0.001,999
+"Malaria incidence per 100,000",141,0,log10,0.8352,-0.0068,16.6223,0.001,999
+Dengue share of reported cases (%),144,0,none,0.8746,-0.0084,17.1132,0.001,999
