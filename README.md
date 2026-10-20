@@ -1,5 +1,7 @@
 ﻿# Differentiating notified dengue from malaria in Kolkata from routine surveillance fields
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23516233.svg)](https://doi.org/10.5281/zenodo.23516233)
+
 Analysis code for the study *"Differentiating notified dengue from malaria in Kolkata from routine surveillance fields: a leakage-audited machine-learning study, 2014–2025"* (Biswas A, Das A, Mandal B, Das A, Chatterjee S; manuscript in preparation).
 
 The study classifies notified cases from the Kolkata Municipal Corporation (KMC) line-lists as dengue or malaria using only six routine fields (ward, borough, month, age, sex and place of treatment). It compares seven classifiers under five class-imbalance strategies in a pipeline where every modelling choice is made on training data only. It also audits two leaks of an earlier workflow and analyses the ward-level spatial pattern of both diseases.
@@ -49,4 +51,4 @@ This script belongs to the earlier workflow and computes a ward risk score on al
 
 ## Licence and citation
 
-Code released under the [MIT licence](LICENSE). If you use it, please cite the article (citation to be added on publication).
+Code released under the [MIT licence](LICENSE). If you use it, please cite the archived release, Biswas A, Das A, Mandal B, Das A, Chatterjee S (2026), *Analysis code: differentiating notified dengue from malaria in Kolkata from routine surveillance fields*, Zenodo, https://doi.org/10.5281/zenodo.23516233, and the article (citation to be added on publication).
