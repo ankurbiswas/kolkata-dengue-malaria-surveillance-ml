@@ -1,0 +1,28 @@
+# --- data: never commit (KMC case-level records and licensed ward boundaries; see DATA.md)
+data/
+*.xlsx
+*.xls
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+pipeline/model_input*.csv
+pipeline/excluded_place_missing.csv
+*.csv.gz
+
+# --- outputs (contain per-case predictions)
+outputs*/
+pipeline/outputs*/
+spatial/output/
+
+# --- run logs and environments
+*_stdout.txt
+*_stderr.txt
+setup_log.txt
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
