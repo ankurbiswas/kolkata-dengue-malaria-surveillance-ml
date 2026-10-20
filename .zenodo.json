@@ -1,0 +1,15 @@
+{
+  "title": "Analysis code: differentiating notified dengue from malaria in Kolkata from routine surveillance fields (leakage-audited machine learning, 2014-2025)",
+  "upload_type": "software",
+  "description": "Analysis code for the study 'Differentiating notified dengue from malaria in Kolkata from routine surveillance fields: a leakage-audited machine-learning study, 2014-2025'. Includes data preparation, the leakage-safe benchmark (seven classifiers, five class-imbalance strategies, five random splits and a temporal split), the leakage audit, field ablations, calibration and decision-curve analyses, figures, ward-level spatial statistics, a synthetic example dataset, and derived ward-level result tables without patient information. The Kolkata Municipal Corporation line-lists and the licensed ward boundaries are not included.",
+  "creators": [
+    {"name": "Biswas, Ankur", "affiliation": "University of Engineering and Management, Kolkata, India; Institute of Engineering & Management, Kolkata, India", "orcid": "0000-0002-4507-333X"},
+    {"name": "Das, Ayan", "affiliation": "University of Engineering and Management, Kolkata, India; Institute of Engineering & Management, Kolkata, India"},
+    {"name": "Mandal, Bithika", "affiliation": "Vector Control Department, Department of Health, Kolkata Municipal Corporation, Kolkata, India"},
+    {"name": "Das, Anirban", "affiliation": "University of Engineering and Management, Kolkata, India; Institute of Engineering & Management, Kolkata, India"},
+    {"name": "Chatterjee, Sankhadeep", "affiliation": "Sardar Vallabhbhai National Institute of Technology, Surat, Gujarat, India"}
+  ],
+  "keywords": ["dengue", "malaria", "surveillance", "machine learning", "data leakage", "class imbalance", "calibration", "spatial epidemiology", "Kolkata"],
+  "license": "MIT",
+  "access_right": "open"
+}
